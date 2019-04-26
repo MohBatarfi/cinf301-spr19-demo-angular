@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms'
 import { AppComponent } from './app.component';
 import { RouterModule, Routes} from '@angular/router';
 import { AlgorithmsComponent } from './algorithms/algorithms.component';
+import { PipesPipe } from './pipes.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlgorithmsComponent
+    AlgorithmsComponent,
+    PipesPipe
   ],
   imports: [
     BrowserModule,

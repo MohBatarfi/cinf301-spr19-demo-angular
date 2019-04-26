@@ -15,6 +15,13 @@
 
 <h2>Routing</h2>
 <a routerLink="/algorithmSort"> Array Sorting Algorithms </a>
+
+<hr>
+
+<h2>Pipes</h2>
+<p>Unsorted Array: {{arrayLetters}}</p>
+<p>Sorted Array: {{arrayLetters | pipes}}</p>
+<b>{{algorithmType | uppercase}}</b><br/>
 </div>
 
 <router-outlet></router-outlet>

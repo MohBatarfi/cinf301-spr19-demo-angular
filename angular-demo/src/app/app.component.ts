@@ -24,4 +24,6 @@ export class AppComponent
   {
     this.image = ev.target.value;
   }
+
+  arrayLetters = ['a','f','c','l','p','b','q'];
 }
